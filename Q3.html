@@ -1,0 +1,232 @@
+
+
+      <!DOCTYPE html>
+      <html lang="en">
+         <!-- Basic -->
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <!-- Mobile Metas -->
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <!-- Site Metas -->
+         <title>Employee Registration </title>
+         <meta name="keywords" content="">
+         <meta name="description" content="">
+         <meta name="author" content="">
+         <!-- site icon -->
+         <link rel="icon" href="images/pwc_logo.png" type="image/png" />
+         <!-- Bootstrap core CSS -->
+         <link href="css/bootstrap.css" rel="stylesheet">
+         
+         <!-- Custom styles for this template -->
+         <link href="css/style.css" rel="stylesheet">`
+         <!-- Responsive styles for this template -->
+         <link href="css/responsive.css" rel="stylesheet">
+         <!-- Colors for this template -->
+       
+        
+        
+         
+      
+         
+         <link rel="stylesheet" type="text/css" href="css/galllery.css"> 
+         <link rel="shortcut icon" href="images/pwc_logo.png" type="image/x-icon">  
+         <link rel='stylesheet' href='css/js-form-validation.css' type='text/css' />
+         
+         <script src="sample-registration-form-validation.js"></script>
+      
+         </head>
+         <body id="home_page" class="home_page" style="background: linear-gradient(43deg, #4158D0, #C850C0,#FFCC70);padding: 10px;" onload="document.registration.userid.focus();">
+            <!-- loader -->
+            <!-- <div id="preloader">
+               <img class="preloader" src="images/fav.png" alt="#">  
+            </div> -->
+            <!-- end loader -->
+            <!-- header -->
+            <header class="header">
+      
+              <div class="header_top_section">
+                 <div class="container">
+                    <div class="row">
+                     <div class="col-lg-3">
+                        <div class="full">
+                           <div class="logo">
+                              <a href="Q3.html"><img src="images/pwc_logo.png" alt="#"  height="150px" width="180px"/></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-9 site_information">
+                        <div class="full">
+                            <div class="top_section_info">
+                               <ul>
+                                 <li>Contact Us: <img src="images/i1.png" alt="#" /> <a href="#">+91 9142913036</a></li>
+                                 <li><img src="images/i2.png" alt="#" /> <a href="#">priyasharan24april@gmail.com</a></li>
+                                 <li><img src="images/i3.png" alt="#" /> <a href="#">Patna, Bihar</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+                 </div>
+              </div>
+      
+              <div class="header_bottom_section">
+      
+               <div class="container">
+                  
+                 <div class="row">
+                     <div class="col-md-12">
+                        <div class="full ">
+                           <div class="main_menu">
+                              <nav class="navbar navbar-inverse navbar-toggleable-md">
+                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cloapediamenu" aria-controls="cloapediamenu" aria-expanded="false" aria-label="Toggle navigation">
+                                 <span class="float-left">Menu</span>
+                                 <span class="float-right"><i class="fa fa-bars"></i> <i class="fa fa-close"></i></span>
+                                 </button>
+                                 <div class="collapse navbar-collapse justify-content-md-center" id="cloapediamenu">
+                                    <ul class="navbar-nav">
+                                       <li class="nav-item active">
+                                          <a class="nav-link" href="Q3.html">Registration</a>
+                                       </li>
+                                     
+                                       <li class="nav-item">
+                                          <a class="nav-link color-aqua-hover" href="Q3.html">About</a>
+                                       </li>
+                                 
+                                       <li class="nav-item">
+                                          <a class="nav-link color-grey-hover" href="Q3.html">Contact</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </nav>
+                           </div>
+                           <div class="search_bar">
+                              <form action="index.html">
+                                 <input type="text" class="search_field" placeholder="Search" required />
+                                 <button class="search_button" type="button"><i class="fa fa-search"></i></button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+      
+      
+      
+      
+      
+      
+      
+            <h1 style="margin-left: 10px;margin-top: 20px;">Registration Form</h1>
+        
+            <form name='registration' onSubmit="return formValidation();">
+            <ul>
+            <li><label for="userid">User id:</label></li>
+            <li><input type="text" name="userid" size="12" required/></li>
+            <li><label for="passid">Password:</label></li>
+            <li><input type="password" name="passid" size="12" required/></li>
+            <li><label for="username">Name:</label></li>
+            <li><input type="text" name="username" size="50" required/></li>
+            <li><label for="address">Address:</label></li>
+            <li><input type="text" name="address" size="50" required/></li>
+            <li><label for="country">Country:</label></li>
+            <li><select name="country">
+            <option selected="" value="Default">(Please select a country)</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option>
+            </select></li>
+            <li><label for="zip">ZIP Code:</label></li>
+            <li><input type="text" name="zip"required/></li>
+            <li><label for="email">Email:</label></li>
+            <li><input type="text" name="email" size="50"required /></li>
+            <li><label id="gender">Sex:</label></li>
+            <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+            <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+            <li><label>Language:</label></li>
+            <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+            <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+            <li><label for="desc">About:</label></li>
+            <li><textarea name="desc" id="desc"></textarea></li>
+            <li><input type="submit" name="submit" value="Submit" /></li>
+           
+            </ul>
+            
+            </form>
+      
+      
+      
+      
+      
+      
+      
+      
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <footer class="footer layout_padding">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3 col-sm-12">
+                 <a href="Q3.html"><img class="img-responsive" src="images/pwc.jpg" alt="#" /></a>
+              </div>
+
+              <div class="col-md-3 col-sm-12">
+                 <div class="footer_link_heading">
+                    <h3>Address</h3>
+                 </div>
+                 <div class="address_infor">
+                    <p> 
+                       <span class="icon"><img src="images/location_icon.png" alt="#" /></span>
+                       <span class="addrs">PWC, Patna</span>
+                    </p>
+                 </div>
+              </div>
+
+              <div class="col-md-3 col-sm-12">
+                 <div class="footer_link_heading">
+                    <h3>Social Link</h3>
+                 </div>
+                 <div class="social_icon">
+                   <ul>
+                      <li><a href="https://www.facebook.com" target="_blank"><img src="images/fb.png" alt="#" /></a></li>
+                      <li><a href="https://mobile.twitter.com" target="_blank"><img src="images/tw.png" alt="#" /></a></li>
+                      <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/in.png" alt="#" /></a></li>
+                   </ul>
+
+              
+
+                  
+                 </div>
+              </div>
+              
+              <div class="col-md-3 col-sm-12">
+                 <div class="footer_link_heading">
+                    <h3>Newsletter</h3>
+                 </div>
+                 <div class="email_address_bottom">
+                    <form>
+                       <fieldset>
+                          <div class="field_email">
+                             <input type="email" name="email" placeholder="Enter Your Email">
+                             <button><i class="fa fa-search"></i></button>
+                          </div>
+                       </fieldset>
+                    </form>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     <div class="cpy">
+       <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>© PWC PATNA BIHAR 2022. All Rights Reserved. </p>
+            </div>
+          </div>
+       </div>
+     </div> 
+
+     </body>
+     </html>
